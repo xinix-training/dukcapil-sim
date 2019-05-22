@@ -1,0 +1,15 @@
+{
+  "name": "dukcapil-sim",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon sim.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ganesha <reekoheek@gmail.com> (http://sagara.id)",
+  "license": "MIT",
+  "dependencies": {
+    "bono": "^1.0.2"
+  }
+}
