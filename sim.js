@@ -58,6 +58,8 @@ function getContentByNik (nik) {
   if (!result.length) {
     throw new Error('Data Tidak Ditemukan');
   }
+
+  return result;
 }
 
 const app = new Bundle();
